@@ -11,9 +11,11 @@ void main() {
         n /= 10;
     }
     // palindrome if orignalN and reversedN are equal
-    if (originalN == reversedN)
+    if (originalN == reversedN){
         printf("%d is a palindrome.", originalN);
-    else
+        printf("\n");
+        }
+    else{
         printf("%d is not a palindrome.", originalN);
-    // return 0;
+        printf("\n");}
 }
