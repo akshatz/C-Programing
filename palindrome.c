@@ -1,3 +1,4 @@
+#define println() printf("\n")
 #include <stdio.h>
 void main() {
     int n, reversedN = 0, remainder, originalN;
@@ -13,9 +14,10 @@ void main() {
     // palindrome if orignalN and reversedN are equal
     if (originalN == reversedN){
         printf("%d is a palindrome.", originalN);
-        printf("\n");
-        }
+        println();
+    }
     else{
         printf("%d is not a palindrome.", originalN);
-        printf("\n");}
+        println();
+    }
 }
